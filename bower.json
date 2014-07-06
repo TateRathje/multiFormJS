@@ -1,0 +1,19 @@
+{
+  "name": "multiFormJS",
+  "version": "0.0.0",
+  "homepage": "https://github.com/TateRathje/multiFormJS",
+  "authors": [
+    "Tate Rathje <taterathje@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}

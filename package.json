@@ -1,0 +1,21 @@
+{
+  "name": "multiFormJS",
+  "private": true,
+  "version": "0.0.0",
+  "description": "AngularJS Multi-Form ",
+  "repository": "https://github.com/TateRathje/multiFormJS.git",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.6.1",
+    "bower": "^1.3.1"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000",
+
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update"
+  }
+}
